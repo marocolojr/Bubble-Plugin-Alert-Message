@@ -1,0 +1,138 @@
+{
+    "category": "plugins",
+    "display": "Alert - Custom - My",
+    "fields": {
+        "AAK": {
+            "caption": "Heading",
+            "default_val": "Title",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "heading",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Message",
+            "default_val": "Content goes here...",
+            "doc": "",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Show close button",
+            "default_val": true,
+            "doc": "Show a close button or not",
+            "editor": "Checkbox",
+            "name": "closeButton",
+            "rank": 5
+        },
+        "AAN": {
+            "caption": "Position on page",
+            "default_val": "Bottom Right",
+            "doc": "Position of notification",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top Right,Top Left,Top Center,Bottom Right,Bottom Left,Bottom Center",
+            "rank": 6
+        },
+        "AAO": {
+            "caption": "Hide after (ms)",
+            "default_val": 5000,
+            "doc": "Timeout of the notification",
+            "editor": "DynamicValue",
+            "name": "hideAfter",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "Display progress bar",
+            "default_val": false,
+            "doc": "Display a Progress Bar",
+            "editor": "Checkbox",
+            "name": "progressBar",
+            "rank": 11
+        },
+        "AAQ": {
+            "caption": "Icon to display",
+            "default_val": "None",
+            "doc": "Icon",
+            "editor": "Dropdown",
+            "name": "icon",
+            "options": "Warning,Success,Error,Information,None",
+            "rank": 3
+        },
+        "AAR": {
+            "caption": "Animation",
+            "default_val": "Fade",
+            "doc": "Animation",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "Fade,Slide,Plain",
+            "rank": 4
+        },
+        "AAS": {
+            "caption": "Max notifications at once",
+            "default_val": 5,
+            "doc": "Max number of notifications at once",
+            "editor": "StaticNumber",
+            "name": "maxNumber",
+            "rank": 12,
+            "value": "number"
+        },
+        "AAT": {
+            "caption": "Progress bar color",
+            "default_val": "#9EC600",
+            "doc": "Progress Bar Color",
+            "editor": "DynamicValue",
+            "name": "progressBarColor",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Text alignment",
+            "default_val": "Left",
+            "doc": "Alignment of text",
+            "editor": "Dropdown",
+            "name": "textAlign",
+            "options": "Left,Right,Center",
+            "rank": 13
+        },
+        "AAV": {
+            "caption": "Background color",
+            "default_val": "#EAF9DE",
+            "doc": "Background color. Default colors: Success: #4CAF50 Info: #4183D7 Warning: #FF9800 Error: #ED3E44",
+            "editor": "DynamicValue",
+            "name": "bgColor",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "Text color",
+            "default_val": "#067306",
+            "doc": "Text color",
+            "editor": "DynamicValue",
+            "name": "textColor",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "The Heading and Message fields will also accept valid HTML styling",
+            "editor": "Label",
+            "name": "heading_and_message_also_accept_html_styling",
+            "rank": 0
+        },
+        "AAY": {
+            "caption": "XSS Protection",
+            "default_val": true,
+            "doc": "Disables potentially harmful custom HTML from being displayed in AirAlerts. This is important when user-entered data is shown in an alert",
+            "editor": "DynamicValue",
+            "name": "xss_protection",
+            "rank": 14,
+            "value": "boolean"
+        }
+    },
+    "type": "client_side"
+}

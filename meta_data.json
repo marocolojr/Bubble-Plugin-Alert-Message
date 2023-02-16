@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "description": "This is a plugin using the solution:\n\nhttps://github.com/marcelodolza/iziToast\n\nCustomization of the solution:\n\nhttps://bubble.io/plugin/alert-toast-message-notify-%C2%B7-bep-1658328157117x953686184769617900\n\n\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1676571409429x535508602944598340/91137-notification.gif",
+    "license": "open_source",
+    "name": "Alert Message"
+}

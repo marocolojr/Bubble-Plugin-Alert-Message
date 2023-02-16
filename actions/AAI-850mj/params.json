@@ -1,0 +1,58 @@
+{
+    "category": "plugins",
+    "display": "Alert - Stan - My",
+    "fields": {
+        "AAC": {
+            "caption": "Notification type",
+            "default_val": "Success",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "Warning,Success,Error,Information",
+            "rank": 3
+        },
+        "AAD": {
+            "caption": "Heading",
+            "default_val": "Title",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "heading",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Message",
+            "default_val": "Content goes here...",
+            "doc": "",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "The Heading and Message fields will also accept valid HTML styling",
+            "editor": "Label",
+            "name": "heading_and_message_also_accept_html_styling",
+            "rank": 0
+        },
+        "AAG": {
+            "caption": "XSS Protection",
+            "default_val": true,
+            "doc": "Disables potentially harmful custom HTML from being displayed in AirAlerts. This is important when user-entered data is shown in an alert.",
+            "editor": "DynamicValue",
+            "name": "xss_protection",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAH": {
+            "caption": "Position on page",
+            "default_val": "Top Right",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top Right,Top Left,Top Center,Bottom Right,Bottom Left,Bottom Center",
+            "rank": 4
+        }
+    },
+    "type": "client_side"
+}

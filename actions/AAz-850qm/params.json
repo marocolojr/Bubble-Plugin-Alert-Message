@@ -1,0 +1,167 @@
+{
+    "category": "plugins",
+    "display": "IziToast - Alert - My",
+    "fields": {
+        "AAj": {
+            "caption": "--- Animation Settings ---",
+            "editor": "Label",
+            "name": "info_settings",
+            "rank": 5
+        },
+        "AAk": {
+            "caption": "Font Weight (Message)",
+            "default_val": "600",
+            "editor": "Dropdown",
+            "name": "fontWeightMessage",
+            "options": "100,200,300,400,500,600,700,800,900",
+            "rank": 12
+        },
+        "AAl": {
+            "caption": "Font Weight (Title)",
+            "default_val": "700",
+            "editor": "Dropdown",
+            "name": "fontWeightTitle",
+            "options": "100,200,300,400,500,600,700,800,900",
+            "rank": 13
+        },
+        "AAm": {
+            "caption": "Title (Optional)",
+            "default_val": "",
+            "doc": "Title of the toast.",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "Message",
+            "default_val": " This is your toast message.",
+            "doc": "Message of notification.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Timeout",
+            "default_val": 5000,
+            "doc": "Milisseconds until the Alert Message disappears. Example: 5000",
+            "editor": "DynamicValue",
+            "name": "timeout",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAp": {
+            "caption": "Background color",
+            "default_val": "rgba(234, 249, 222, 1)",
+            "doc": "Suggestions: Blue (Info): #009EF7. Green (Success): #50CD89. Yellow (Warning): #FFC700. Red (Error): #F1416C. Purple: #7239EA",
+            "editor": "Color",
+            "name": "background_color",
+            "rank": 3
+        },
+        "AAq": {
+            "caption": "Position",
+            "default_val": "Bottom Right",
+            "doc": "Where it will be shown.",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Center,Top Left,Top Center,Top Right,Bottom Left,Bottom Center,Bottom Right",
+            "rank": 4
+        },
+        "AAr": {
+            "caption": "Animation In",
+            "default_val": "fade in",
+            "doc": "Default toast open animation.",
+            "editor": "Dropdown",
+            "name": "animation_in",
+            "options": "bounce in left,bounce in right,bounce in up,bounce in down,fade in,fade in down,fade in up,fade in left,fade in right, flip in",
+            "rank": 6
+        },
+        "AAs": {
+            "caption": "Animation Out",
+            "default_val": "fadeOut",
+            "doc": "Default toast close animation.",
+            "editor": "Dropdown",
+            "name": "animation_out",
+            "options": "fadeOut,fadeOut down,fadeOut up,flipOutX",
+            "rank": 7
+        },
+        "AAt": {
+            "caption": "Font Name (Title)",
+            "default_val": "Poppins",
+            "doc": "Type the name of the font exactly as you see in Bubble's Font Library. Example: Poppins",
+            "editor": "DynamicValue",
+            "name": "fontNameTitle",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "Font Name (Message)",
+            "default_val": "Poppins",
+            "doc": "Type the name of the font exactly as you see in Bubble's Font Library. Example: Poppins",
+            "editor": "DynamicValue",
+            "name": "fontNameMessage",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "Image Width",
+            "doc": "Image Width (in pixels). Example: 50",
+            "editor": "DynamicValue",
+            "name": "image_width",
+            "optional": true,
+            "rank": 15,
+            "value": "number"
+        },
+        "AAw": {
+            "caption": "--- Select an Icon or Image to display at the left side of the Alert Message. If you do not want to show Icons or Images, just leave these fields blank. ---",
+            "editor": "Label",
+            "name": "info_iconimage",
+            "rank": 14
+        },
+        "AAx": {
+            "caption": "--- Progress Bar Settings ---",
+            "editor": "Label",
+            "name": "info_progress",
+            "rank": 16
+        },
+        "AAy": {
+            "caption": "--- Font Style ---",
+            "editor": "Label",
+            "name": "info_style",
+            "rank": 8
+        },
+        "ABA": {
+            "caption": "fontColorMessage",
+            "default_val": "rgba(6, 115, 6, 1)",
+            "editor": "Color",
+            "name": "fontColorMessage",
+            "rank": 11
+        },
+        "ABB": {
+            "caption": "progressBarColor",
+            "default_val": "rgba(6, 115, 6, 1)",
+            "editor": "Color",
+            "name": "progressBarColor",
+            "rank": 17
+        },
+        "ABC": {
+            "caption": "progressBarShow",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "progressBarShow",
+            "rank": 18
+        },
+        "ABE": {
+            "caption": "Close",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "close",
+            "rank": 19
+        }
+    },
+    "type": "client_side"
+}
